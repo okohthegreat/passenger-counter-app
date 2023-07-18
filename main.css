@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body{
+    font-family: "montserrat";
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+   
+}
+
+.logo h1{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+.navlinks{
+    float: right;
+    margin-right: 40px;
+}
