@@ -80,7 +80,7 @@
 
 
 
-const day = "monday"
+// const day = "monday"
 
 // switch(day){
 //     case 'monday':
@@ -117,25 +117,34 @@ const day = "monday"
 // }
 
 
-if (day == "monday"){
-    console.log('Time for Edo-bits');
-    console.log('Meet Uncle Davison');
-}
-else if(day == "tuesday"){
-    console.log('Visit Uniben');
-}
-else if(day == "wednesday"){
-    console.log('Meet the president ');
-}
-else if(day == "thursday"){
-    console.log('Relax in the evening');
-}
-else if(day == "friday"){
-    console.log('Go on vacation');
-}
-else if(day == "saturday"){
-    console.log('Enjoy the weekend');
-}
-else{
-    console.log('Go to church and pray to God!')
+// if (day == "monday"){
+//     console.log('Time for Edo-bits');
+//     console.log('Meet Uncle Davison');
+// }
+// else if(day == "tuesday"){
+//     console.log('Visit Uniben');
+// }
+// else if(day == "wednesday"){
+//     console.log('Meet the president ');
+// }
+// else if(day == "thursday"){
+//     console.log('Relax in the evening');
+// }
+// else if(day == "friday"){
+//     console.log('Go on vacation');
+// }
+// else if(day == "saturday"){
+//     console.log('Enjoy the weekend');
+// }
+// else{
+//     console.log('Go to church and pray to God!')
+// }
+
+
+let countEl = document.getElementById("count-el")
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
 }
