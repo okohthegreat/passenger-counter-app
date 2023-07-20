@@ -26,9 +26,11 @@ justify-content: center;
 align-items: center;
 }
 .fun-link{
-    color: #2c679e;
+    color: #2a2a79;
     font-family: "Montserrat";
     position: relative;
+    font-size: 20px;
+    font-weight: 500;
 }
 .fun-link::after{
     content: '';
@@ -88,4 +90,8 @@ align-items: center;
     font-size: 20px;
     font-weight: 600; 
     font-style: italic;
+}
+#count-el{
+    padding: 10px 0px 5px 0px; 
+    font-size: 35px;
 }
