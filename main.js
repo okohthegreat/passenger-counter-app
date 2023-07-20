@@ -140,7 +140,7 @@
 //     console.log('Go to church and pray to God!')
 // }
 
-
+let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 
@@ -151,5 +151,10 @@ function increment() {
 
 
 function save(){
+    
+    let countStr = " "+ count + " - "
+    saveEl.innerText += countStr
+
     console.log("The saved number is " + count)
+
 }
