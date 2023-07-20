@@ -151,10 +151,11 @@ function increment() {
 
 
 function save(){
-    
     let countStr = " "+ count + " - "
     saveEl.innerText += countStr
+    countEl.innerText = 0
+    count = 0
 
-    console.log("The saved number is " + count)
+    console.log("The saved number is " + countStr)
 
 }
