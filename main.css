@@ -19,6 +19,9 @@
     width: 100%;
     border: 2px solid rgb(211, 92, 62);
 } */
+body{
+    background-color: rgba(250, 250, 250, 0.308);
+}
 
 .div-1{
     display: flex;
@@ -26,18 +29,21 @@ justify-content: center;
 align-items: center;
 }
 .fun-link{
-    color: #2a2a79;
+
+    color: rgba(18, 81, 139, 0.932);
+   
     font-family: "Montserrat";
     position: relative;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
+    top: 70px;
 }
 .fun-link::after{
     content: '';
     position: absolute;
     width: 100%;
     height: 2px;
-    background: rgb(181, 55, 212);
+    background-color: rgba(26, 201, 178, 0.932);
     left: 0;
     bottom: 0;
     transform: scaleX(0);
@@ -52,8 +58,7 @@ align-items: center;
 
 .container{
     text-align: center;
-    max-width: 900px;
-    margin: 100px auto 0;
+
 }
 
 .btn-1{
@@ -94,4 +99,14 @@ align-items: center;
 #count-el{
     padding: 10px 0px 5px 0px; 
     font-size: 35px;
+}
+.image img{
+    width: 550px;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    max-width: 900px;
+    margin: 100px auto 0;
 }
